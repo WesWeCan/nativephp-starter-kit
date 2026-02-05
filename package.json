@@ -2,6 +2,9 @@
     "$schema": "https://json.schemastore.org/package.json",
     "private": true,
     "type": "module",
+    "imports": {
+        "#nativephp": "./vendor/nativephp/mobile/resources/dist/native.js"
+    },
     "scripts": {
         "build": "vite build",
         "build:ios": "vite build --mode=ios",
