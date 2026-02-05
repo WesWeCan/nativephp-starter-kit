@@ -1,0 +1,26 @@
+{
+    "$schema": "https://json.schemastore.org/package.json",
+    "private": true,
+    "type": "module",
+    "scripts": {
+        "build": "vite build",
+        "dev": "vite"
+    },
+    "devDependencies": {
+        "@inertiajs/vue3": "^2",
+        "@vitejs/plugin-vue": "^6",
+        "axios": "^1",
+        "concurrently": "^9",
+        "laravel-vite-plugin": "^2",
+        "sass": "^1",
+        "typescript": "^5",
+        "vite": "^7",
+        "vite-plugin-vue-devtools": "^8",
+        "vue": "^3",
+        "vue-tsc": "^3"
+    },
+    "dependencies": {
+        "@jamescoyle/vue-icon": "^0.1.2",
+        "@mdi/js": "^7.4.47"
+    }
+}
