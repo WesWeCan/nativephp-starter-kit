@@ -5,6 +5,9 @@
     "guidelines": true,
     "herd_mcp": true,
     "mcp": true,
+    "packages": [
+        "nativephp/mobile"
+    ],
     "sail": false,
     "skills": [
         "pest-testing"

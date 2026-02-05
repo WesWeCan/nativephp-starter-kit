@@ -4,6 +4,13 @@
     "type": "module",
     "scripts": {
         "build": "vite build",
+        "build:ios": "vite build --mode=ios",
+        "build:android": "vite build --mode=android",
+        "run:ios": "yarn build:ios && ./native run ios",
+        "run:android": "yarn build:android && adb devices && ./native run android",
+        "watch:ios": "yarn build:ios && ./native run --watch ios",
+        "watch:android": "yarn build:android && ./native run --watch android",
+        "jump": "./native jump",
         "dev": "vite"
     },
     "devDependencies": {

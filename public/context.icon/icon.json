@@ -1,0 +1,27 @@
+{
+  "fill" : {
+    "solid" : "display-p3:0.04407,0.14800,0.86018,1.00000"
+  },
+  "groups" : [
+    {
+      "layers" : [
+        {
+          "image-name" : "context_undefined_logo.png",
+          "name" : "context_undefined_logo"
+        }
+      ],
+      "name" : "Group",
+      "shadow" : {
+        "kind" : "neutral",
+        "opacity" : 0.5
+      },
+      "translucency" : {
+        "enabled" : true,
+        "value" : 0.5
+      }
+    }
+  ],
+  "supported-platforms" : {
+    "squares" : "shared"
+  }
+}

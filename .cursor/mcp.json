@@ -13,7 +13,7 @@
                 "/Applications/Herd.app/Contents/Resources/herd-mcp.phar"
             ],
             "env": {
-                "SITE_PATH": "/Users/weswecan/Development/GitHub/laravel-starter-kit"
+                "SITE_PATH": "/Users/weswecan/Development/GitHub/nativephp-starter-kit"
             }
         }
     }

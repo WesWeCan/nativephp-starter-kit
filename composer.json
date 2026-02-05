@@ -1,11 +1,13 @@
 {
     "$schema": "https://getcomposer.org/schema.json",
-    "name": "weswecan/laravel-starter-kit",
+    "name": "weswecan/nativephp-starter-kit",
     "type": "project",
-    "description": "Starterkit for Laravel projects using inertia, typescript, sass, vue 3",
+    "description": "Starterkit for NativePHP projects using inertia, typescript, sass, vue 3, and NativePHP Mobile",
     "keywords": [
         "laravel",
-        "framework"
+        "framework",
+        "nativephp",
+        "mobile"
     ],
     "license": "MIT",
     "require": {
@@ -13,6 +15,7 @@
         "inertiajs/inertia-laravel": "^2.0",
         "laravel/framework": "^12.0",
         "laravel/tinker": "^2.10.1",
+        "nativephp/mobile": "^3.0",
         "tightenco/ziggy": "^2.5"
     },
     "require-dev": {

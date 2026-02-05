@@ -15,7 +15,7 @@ function increment() {
     <BasicLayout>
         <section>
             <h1><svg-icon type="mdi" :path="mdiHumanGreetingVariant" :size="24"></svg-icon>Hello World</h1>
-            <button @click="increment">Pressed {{ count }} times</button>
+            <button @click="increment">Pressed {{ count }} times!</button>
         </section>
     </BasicLayout>
 </template>

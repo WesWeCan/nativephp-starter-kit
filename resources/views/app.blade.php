@@ -3,7 +3,12 @@
 
 <head>
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    {{-- Viewport Options:
+         - Basic: width=device-width, initial-scale=1
+         - Disable Zoom: width=device-width, initial-scale=1, user-scalable=no
+         - Edge-to-Edge: width=device-width, initial-scale=1, user-scalable=no, viewport-fit=cover
+    --}}
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no, viewport-fit=cover">
 
     <title inertia>{{ config('app.name', 'Laravel') }}</title>
 
@@ -19,7 +24,8 @@
     @inertiaHead
 </head>
 
-<body class="font-sans antialiased">
+{{-- The native php safe area class is used to ensure the content is not covered by the notches of the device --}}
+<body class="font-sans antialiased nativephp-safe-area">
     @inertia
 </body>
 
