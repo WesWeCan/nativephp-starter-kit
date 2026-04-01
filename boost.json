@@ -3,13 +3,16 @@
         "cursor"
     ],
     "guidelines": true,
-    "herd_mcp": true,
     "mcp": true,
+    "nightwatch_mcp": false,
     "packages": [
         "nativephp/mobile"
     ],
     "sail": false,
     "skills": [
-        "pest-testing"
+        "laravel-best-practices",
+        "pest-testing",
+        "inertia-vue-development",
+        "nativephp-mobile"
     ]
 }
