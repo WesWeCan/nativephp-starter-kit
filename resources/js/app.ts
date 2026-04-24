@@ -1,14 +1,18 @@
 import './bootstrap';
 import '../scss/index.scss';
 
+import { axiosAdapter } from '@inertiajs/core';
 import { createInertiaApp } from '@inertiajs/vue3';
+import axios from 'axios';
 import { resolvePageComponent } from 'laravel-vite-plugin/inertia-helpers';
 import { createApp, DefineComponent, h } from 'vue';
 import { ZiggyVue } from '../../vendor/tightenco/ziggy';
 
 const appName = import.meta.env.VITE_APP_NAME || 'Laravel';
 
+
 createInertiaApp({
+   http: axiosAdapter(axios),
     title: (title) => `${title} - ${appName}`,
     resolve: (name) =>
         resolvePageComponent(
